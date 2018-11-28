@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/* section start */
+section{
+    width: 100%;
+    height: 520px;
+    background: url(../img/chezhu/owners_banner.png) 0px -80px no-repeat;
+    background-size: cover;
+    position: relative;
+}
+section div.download{
+    width: 600px;
+    height: 320px;
+    position: absolute;
+    bottom: 15%;
+    left:10%;
+    color: white;
+}
+section div.download p.down_ch{
+    font-size: 54px;
+}
+section div.download p.down_en{
+    font-size: 44px;
+    margin: 10px 0;
+}
+section .down_way{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+section .down_way .down_code{
+    width: 150px;
+    text-align: center;
+}
+section .down_way .down_code img{
+    width: 143px;
+    height:143px;
+}
+section .down_way .way {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+section .down_way .way p{
+    font-size: 14px;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    line-height: 55px; 
+    border: 1px solid white;
+    border-radius: 15px;  
+}
+
+section .way p i{
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    vertical-align: middle;
+}
+section  .way p:first-child i{
+    background: url(../img/chezhu/owners_p1_icon.png) no-repeat ;
+}
+section  .way p:nth-of-type(2) i{
+    background: url(../img/chezhu/owners_p1_icon.png) no-repeat 0 -120px;
+}
+/* section end */
+
+/* article start */
+article{
+    width: 100%;
+}
+article .content{
+    padding: 5% 20%;
+    height:500px;
+    margin: 0 auto;
+    position: relative;
+}
+#flash1,#flash2,#flash3{
+    position: absolute;
+    width: 810px;
+}
+#flash1 ul,#flash3 ul{
+    position: absolute;
+    right: 0;
+}
+#flash2 ul{
+    position: absolute;
+    left: 0;
+}
+article .content ul{
+    width: 420px;
+    height: 100px;
+    position: absolute;
+    right: 20%;
+    top: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid black;
+    z-index: 10;
+}
+article .art-con{
+    background: #f7f7f7;
+}
+article div.art-con ul{
+    left: 20%;
+}
+article ul li{
+    float: left;
+    line-height: 30px;
+    text-align: center;
+}
+article .content ul li span{
+    display: inline-block;
+    width: 46px;
+    height: 45px;
+}
+article .content ul li:first-child span{
+    background: url(../img/chezhu/owners_icon.png) no-repeat;
+}
+article .content ul li:nth-of-type(2) span{
+    background: url(../img/chezhu/owners_icon.png) no-repeat 0 -80px;
+}
+article .content ul li:nth-of-type(3) span{
+    background: url(../img/chezhu/owners_icon.png) no-repeat 0 -160px;
+}
+article  .content ul li:nth-of-type(4) span{
+    background: url(../img/chezhu/owners_icon.png) no-repeat 0 -240px;
+}
+article .content ul li i{
+    display: block;
+    height: 14px;
+    border-bottom: 3px solid blue;
+    opacity: 0;
+}
+article .content_part{
+    width: 810px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    position: absolute;
+}
+article .content div.on{
+    opacity: 1;
+}
+article .content_part .content_p_left{
+    width: 250px;
+    height: 460px;
+    background: url(../img/chezhu/owners_phone_bg.png) no-repeat;
+    background-size: contain;
+    position: relative;
+}
+article .content_part .content_p_left img{
+    width: 190px;
+    position: absolute;
+    top:50px;
+    left: 14px;
+    border: 1px solid rgb(53, 36, 36);
+}
+article .content_part .content_p_right{
+    width: 420px;
+    margin-top: 120px;
+}
+.content_p_right p:first-child{
+    font-size: 34px;
+    padding: 20px 5px;
+    line-height: 40px;
+}
+.content_p_right p:nth-of-type(2){
+    color: #999;
+    font-size: 24px;
+    line-height: 30px;
+}
+/* part2 */
+.art-con li:first-child span{
+    background: url(../img/chezhu/owners_icon.png) 0px -320px no-repeat;
+}
+.art-con li:nth-of-type(2) span{
+    background: url(../img/chezhu/owners_icon.png) 0px -400px no-repeat;
+}
+.art-con li:nth-of-type(3) span{
+    background: url(../img/chezhu/owners_icon.png) 0px -480px no-repeat;
+}
+/* part3 */
+.art-con1 li:first-child span{
+    background:url(../img/chezhu/owners_icon.png) 0px -560px no-repeat;
+}
+.art-con1 li:nth-of-type(2) span{
+    background: url(../img/chezhu/owners_icon.png) 0px -640px no-repeat;
+}
+.art-con1 li:nth-of-type(3) span{
+    background: url(../img/chezhu/owners_icon.png) 0px -720px no-repeat;
+}
+
+/* part下载 */
+ article .art_down{
+    width: 100%;
+    min-width: 1200px;
+
+    background: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.art_d_title{
+    width: 80%;
+    height: 80px;
+    text-align: center;
+    padding-top: 80px;
+}
+.art_d_title p:first-child{
+    font-size: 28px;
+}
+.art_d_title p:nth-of-type(2){
+    font-size: 14px;
+    padding: 10px 0;
+}
+.art_d_title p:nth-of-type(3) span{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background: #3494ff;
+}
+article div.art_four{
+    height: 630px;
+}
+.art_d_img{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+.art_d_img ul{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+.art_d_img li{
+    width: 278px;
+    position: relative
+}
+.art_d_img img{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.art_d_img img.on{
+    display: none;
+}
+.art_d_img li:hover img.on{
+    display: block;
+}
+article div.more{
+    background: white;
+    height: 700px;
+}
+.more ul{
+    width: 50%;
+}
+/* article end */

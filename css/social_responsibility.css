@@ -1,0 +1,53 @@
+
+
+/*center*/
+.center{
+
+}
+.region,.rg_title{
+    width: 100%;
+    min-width: 1200px;
+}
+.region img{
+    width: 100%;
+    min-width: 1200px;
+    height: 484px;
+    margin-bottom: 50px;
+}
+.center_title{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center
+}
+.center_title b{
+    font-size: 28px;
+}
+.center_title p{
+    margin: 10px 0;
+}
+.center_title line{
+    width: 100px;
+    height: 2px;
+    background-color: #3494ff;
+    display: inline-block;
+}
+.rg_title_anther{
+    height: 140px;
+}
+.center_text{
+    max-width: 1350px;
+    min-width: 1200px;
+    margin: 50px auto;
+    line-height: 24px;
+}
+.center_text p{
+    margin: 10px auto;
+}
+
+/*center  end*/
+
+
+
+
+
+

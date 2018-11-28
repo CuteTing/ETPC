@@ -1,0 +1,179 @@
+body,div,ul,p,a,li,span,dd,dl,i,h1,h3,form{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px/1 微软雅黑;
+}
+ul{
+    list-style: none;
+}
+ a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+header{
+    width: 90%;
+    min-width: 1200px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+.logo{
+    width: 136px;
+    height: 80px;
+    float: left;
+}
+.logo img{
+    width: 136px;
+    height: 49px;
+    margin: 15px 0;
+}
+.nav{
+    float: right;
+}
+.nav ul{
+    width: 484px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 80px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    font-size: 16px;
+}
+.nav a.on{
+    color: #6C8BD4;
+}
+.nav ul li a:hover{
+    color: #6C8BD4;
+}
+/*header  end*/
+
+
+/*footer start*/
+
+.footer{
+    width: 100%;
+    height: 487px;
+    min-width: 1200px;
+    background-color: #272727;
+}
+.ft_title {
+    width: 950px;
+    height: 22px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.ft_title img{
+    width: 64px;
+}
+.ft_title a{
+    color: white;
+}
+.ft_line{
+    width: 97%;
+    margin: 0 20px;
+    border-top: solid 1px #272727;
+    height: 2px;
+    background: #3e3e3e;
+    position: relative;
+    top: 54px;
+}
+.ft_conter{
+    width: 1170px;
+    height: 220px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    top: -7px;
+    padding-top: 30px;
+}
+.ft_conter dl{
+    float: left;
+    margin: 0 5% 0 0;
+}
+.ft_conter dl dt {
+    font-size: 16px;
+    padding-bottom: 28px;
+    color: #fff;
+}
+.ft_conter dl dd {
+    line-height: 24px;
+}
+.ft_conter dl dd a {
+    color: #a8a8a8;
+    font-size: 14px;
+}
+.ft_conter .d1{
+    margin-left: 110px;
+}
+.wx{
+    float: left;
+    width: 50px;
+    position: relative;
+}
+.wx:hover .code{
+    display: block;
+}
+.code {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    display: none;
+}
+.code img {
+    display: block;
+    width: 100px;
+}
+.wb{
+    float: left;
+}
+.friendship_link{
+    width: 100%;
+    min-width: 1200px;
+    border-top: 1px solid #3e3e3e;
+    margin-top: 15px;
+}
+.friendship{
+    width: 950px;
+    margin: 0 auto;
+    color: #999;
+}
+.friendship p{
+    padding: 20px 0;
+    font-size: 16px;
+}
+.fsp-title{
+    font-size: 16px;
+    color: #999;
+    margin: 16px 0;
+}
+.fsp_logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    color: #999;
+}
+.fsp_logo a img {
+    opacity: 0.5;
+    transition: 0.5s;
+    display: block;
+    margin-left: 15px;
+}
+.copyright {
+    text-align: center;
+    line-height: 22px;
+    padding-top: 20px;
+    font-size: 12px;
+    overflow: hidden;
+    clear: both;
+    color: #fff;
+}
+.jba{
+    width: 18px;
+}
+/*footer  end*/
